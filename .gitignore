@@ -1,0 +1,9 @@
+*.ipr
+*.iws
+*.iml
+.idea
+cache
+fig.yml.sample
+releases
+database/dhis2-db.sql.gz
+.DS_Store
