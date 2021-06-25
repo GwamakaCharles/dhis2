@@ -4,7 +4,7 @@ This document describes the requirement allowing to easily run [dhis2](https://w
 
 ## Prerequisites
 
-- [Install Docker](http://docs.docker.com/engine/installation/ "Documentation")
+- [Install Docker Desktop](https://docs.docker.com/desktop/)
 
 ## How to have dhis2 running in one command?
 
