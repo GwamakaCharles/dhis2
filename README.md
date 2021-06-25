@@ -43,18 +43,6 @@ Docker Hub supports several providers:
 - [Microsoft Azure](https://portal.azure.com/)
 - [Google Cloud](https://cloud.google.com/free/)
 
-For testing purposes I'm using Azure Free Tier. All you have to do is
-
-1. [Create Azure Account](https://portal.azure.com/)
-
-2. Create a resource group.
-
-3. [Add kubernetes](https://portal.azure.com/#home)
-
-4. Use [Kompose](https://kompose.io/) to convert the docker-compose file to Kubernetes resources.
-
-5. Run kubectl apply -f . and check your Kubernetes cluster for your newly deployed containers!
-
 ## Bugs, new requests or contribution
 
 Please submit bugs and feature requests at https://github.com/GwamakaCharles/dhis2/issues
