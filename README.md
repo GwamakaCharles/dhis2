@@ -8,25 +8,23 @@ This document describes the requirement allowing to easily run [dhis2](https://w
 
 ## How to have dhis2 running in one command?
 
-Start a terminal and execute docker-compose with the default config, Sierra Leone dataset, or use `docker-compose-empty-db.yml` if you want to start with a clean state.
+Start a terminal and execute docker compose with the default config, Sierra Leone dataset, or use `docker-compose-empty-db.yml` if you want to start with a clean state.
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 or
 
 ```
-docker-compose -f docker-compose-empty-db.yml up -d
+docker compose -f docker-compose-empty-db.yml up -d
 ```
 
-Once the container is up, open url http://127.0.0.1:8085 and connect using usernmame `admin` and password `district` as explained in the [dhis2 documentation](https://www.dhis2.org/doc/snapshot/en/user/html/ch02.html#d5e283)
-
-When running on Mac OS X or Windows pointing to localhost will fail. It fails because de Docker Host address is not the localhost but instead the address of docker host VM. Run `$ docker-machine ip default` to get Docker Host address.
+Once the container is up, open url http://127.0.0.1:8085 or http://localhost:8085 and connect using username `admin` and password `district` as explained in the [dhis2 documentation](https://www.dhis2.org/doc/snapshot/en/user/html/ch02.html#d5e283)
 
 ## Application logs
 
-To access application logs run `docker-compose logs -f`.
+To access application logs run `docker compose logs -f`.
 
 ## Docker images
 
