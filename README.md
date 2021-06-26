@@ -48,3 +48,5 @@ Docker Hub supports several providers:
 Please submit bugs and feature requests at https://github.com/GwamakaCharles/dhis2/issues
 
 Any other questions contact Gwamaka Charles on Twitter at @GCharles, email at gwamaka.mwamwaja@outlook.com
+
+You can learn about Docker through [this cheatsheet](https://github.com/GwamakaCharles/docker-cheat-sheet)
